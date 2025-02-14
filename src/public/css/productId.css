@@ -1,0 +1,123 @@
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.product-detail__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-detail__title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0085ff;
+}
+
+.product-detail__separator {
+    margin: 0 10px;
+}
+
+.product-detail__page-title {
+    font-size: 1.2em;
+    
+}
+
+.product-detail__content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-detail__image-area {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.product-detail__image {
+    width: 100%;
+    border: 1px solid #e0dfde;
+}
+
+.product-detail__image-upload {
+    margin-top: 10px;
+}
+
+.product-detail__image-upload-label {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.product-detail__image-upload-input {
+    display: none;
+}
+
+.product-detail__image-name {
+    margin-left: 10px;
+}
+
+.product-detail__info {
+    flex: 1;
+}
+
+.product-detail__label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4b4b4b;
+}
+
+.product-detail__input {
+    width: 100%;
+    padding: 11px 10px;
+    border: 1px solid #e0dfde;
+    margin-bottom: 10px;
+    color: #e0dfde;
+    border-radius: 5px;
+}
+
+.product-detail__season-options {
+    display: flex;
+}
+
+.product-detail__season-options label {
+    margin-right: 10px;
+    color: #4b4b4b;
+}
+
+.product-detail__description {
+    margin-bottom: 20px;
+}
+
+.product-detail__description-text {
+    border: 1px solid #e0dfde;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: #e0dfde;
+}
+
+.product-detail__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-detail__button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.product-detail__back-button {
+    background-color: #e0dfde;
+}
+
+.product-detail__save-button {
+    background-color: #f5c800;
+}

@@ -1,0 +1,20 @@
+.header {
+    background-color: #ffffff;
+    max-width: 1512px;
+    height: 53px;
+}
+
+.header__inner {
+    margin: 10px 20px;
+}
+
+.header__logo {
+    color: #f5c800;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+main {
+    background-color: #f8f8f8;
+    width: 100%;
+}
