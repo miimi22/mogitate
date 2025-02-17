@@ -9,13 +9,13 @@ Dockerビルド
 Laravel環境構築
 1. docker-compose exec php bash
 2. composer install
-3. cp .env.example .env、.envの環境変数を次の通りに変更
-   DB_CONNECTION=mysql
-   DB_HOST=mysql
-   DB_PORT=3306
-   DB_DATABASE=laravel_db
-   DB_USERNAME=laravel_user
-   DB_PASSWORD=laravel_pass
+3. cp .env.example .env、.envの環境変数を次の通りに変更<br>
+   DB_CONNECTION=mysql<br>
+   DB_HOST=mysql<br>
+   DB_PORT=3306<br>
+   DB_DATABASE=laravel_db<br>
+   DB_USERNAME=laravel_user<br>
+   DB_PASSWORD=laravel_pass<br>
 4. php artisan key:generate
 5. php artisan migrate
 6. php artisan db:seed
